@@ -1,0 +1,52 @@
+body {
+    color: #2e2f42;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.04em;
+  }
+
+  #controls {  display: inline-flex;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 32px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #f6f6fe;
+    border-radius: 8px;}
+
+    input {
+        position: relative;
+        width: fit-content;
+        margin-top: -1px;
+        font-family: "Montserrat-Regular", Helvetica;
+        white-space: nowrap;
+    }
+    button {
+        position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-weight: 500;
+  color: #ffffff;
+  white-space: nowrap;
+    }
+    
+    #boxes {
+        display: flex;
+        flex-direction: column;
+        width: 486px;
+        align-items: flex-start;
+        gap: 16px;
+        padding: 32px;
+        position: relative;
+        background-color: #f6f6fe;
+        border-radius: 8px;
+      }
+
+      .box {
+        width: 30px;
+        height: 30px;
+        background-color: red; /* Initial background color */
+      }
