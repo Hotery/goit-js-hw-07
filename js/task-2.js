@@ -37,4 +37,4 @@ const galleryItems = images.map((image) => {
 });
 
 gallery.append(...galleryItems);
-galleryItems.forEach((item) => item.firstChild.add("flex-item"));
+galleryItems.forEach((item) => item.firstChild.classList.add("flex-item"));
